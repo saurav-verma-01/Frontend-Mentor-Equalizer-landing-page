@@ -1,0 +1,50 @@
+.mainContent {
+  width: 100%;
+  background-color: var(--dark);
+  margin-top: 10.25rem;
+  padding-top: 0.01px;
+}
+
+.main-img-container {
+  width: 100%;
+  max-width: 13rem;
+  margin: -6rem auto 3rem;
+}
+
+.main-premium-container {
+  background-color: var(--tomato);
+  color: var(--light);
+  border-radius: 0.75rem;
+  padding: 3rem 2.25rem;
+}
+
+.main-premium-container .heading-secondary {
+  margin-bottom: 0.75rem;
+}
+
+.main-premium-container p {
+  margin-bottom: 2.25rem;
+}
+.subscription-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 4rem;
+  line-height: 0.8125;
+}
+.month {
+  font-size: 1.25rem;
+  letter-spacing: -0.2px;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+.main-premium-container .btn-primary {
+  margin-bottom: 1rem;
+}
