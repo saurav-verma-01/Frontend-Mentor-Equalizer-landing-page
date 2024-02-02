@@ -34,14 +34,17 @@
 html {
   width: 100%;
   height: 100%;
-  /* background-color: goldenrod; */
+  scroll-behavior: smooth;
 }
 body {
   font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
+  font-weight: 400;
   width: 100%;
   height: 100%;
-  /* background-color: seagreen; */
+  background-color: var(--light);
+  font-size: 1rem;
+  line-height: 1.625;
 }
 
 a {
@@ -54,6 +57,15 @@ img {
   object-fit: cover;
 }
 
+.main {
+  width: 100%;
+  height: 100%;
+}
+.container {
+  max-width: 30rem;
+  margin-inline: auto;
+}
+
 .heading-primary {
   font-weight: 700;
   font-size: 2.5rem;
@@ -64,22 +76,6 @@ img {
   font-weight: 700;
   font-size: 2.5rem;
   line-height: 1.3;
-}
-.body-text-1 {
-  font-weight: 400;
-  line-height: 1.55;
-  font-size: 1.125rem;
-}
-.body-text-2 {
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.625;
-}
-
-.main {
-  width: 100%;
-  height: 100%;
-  /* background-color: #66e2dc; */
 }
 
 /* Components */
@@ -122,7 +118,7 @@ img {
   background-color: var(--sun);
 }
 
-@media (min-width: 400px) {
+/* @media (min-width: 400px) {
   .hero {
     background-color: #fa7453;
   }
@@ -131,4 +127,4 @@ img {
     line-height: 1;
     letter-spacing: -1px;
   }
-}
+} */

@@ -1,6 +1,9 @@
 .hero {
-  padding: 2.5rem 1.5rem 0;
+  padding: 2.5rem 1.5rem;
   color: var(--dark);
+  background: url("../../assets/images/bg-main-mobile.png");
+  background-position: center left;
+  position: relative;
 }
 
 .logo-box {
@@ -14,4 +17,8 @@
 }
 .hero-content .heading-primary {
   margin-bottom: 1.25rem;
+}
+.bg-1 {
+  position: absolute;
+  display: none;
 }
