@@ -96,6 +96,7 @@ img {
   max-width: 20.813rem;
   height: 3.813rem;
   display: flex;
+  gap: 0.5rem;
   justify-content: center;
   align-items: center;
   border-radius: 0.75rem;

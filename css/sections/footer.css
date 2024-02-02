@@ -1,0 +1,26 @@
+.footer {
+  padding: 4rem 1.5rem 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  background: var(--light);
+}
+
+.footer-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+.footer-logo-box {
+  height: 2rem;
+  width: 9.125rem;
+}
+.socials {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.social-logo {
+  width: 1.25rem;
+  height: 1.25rem;
+}
