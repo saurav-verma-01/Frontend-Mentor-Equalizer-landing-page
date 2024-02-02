@@ -36,6 +36,12 @@ body {
   font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .heading-primary {
   font-weight: 700;
   font-size: 5.5rem;
@@ -67,11 +73,31 @@ body {
   letter-spacing: -0.18px;
 
   /* padding: 1.25rem 6rem; */
+  width: 100%;
+  max-width: 21rem;
+  height: 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 0.75rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
 }
 .btn svg {
   width: 20px;
   height: 20px;
+}
+.btn-primary {
+  background-color: var(--dark);
+  color: var(--light);
+}
+.btn-primary:is(:hover, :focus-visible) {
+  background-color: var(--sky);
+}
+.btn-secondary {
+  color: var(--dark);
+  background-color: var(--light);
+}
+.btn-secondary:is(:hover, :focus-visible) {
+  background-color: var(--sun);
 }
