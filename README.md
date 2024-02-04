@@ -37,6 +37,11 @@ Users should be able to:
 
 ![](./screenshots/equalizer-mobile.png)
 
+#### Lighthouse Test
+
+![](./screenshots/desktop-test.png)
+![](./screenshots/mobile-test.png)
+
 ### Links
 
 - Solution URL: [https://github.com/saurav-verma-01/Frontend-Mentor-Equalizer-landing-page](https://github.com/saurav-verma-01/Frontend-Mentor-Equalizer-landing-page)
